@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Grid</title>
+    <style>
+        /* Your CSS styles here */
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+            gap: 20px;
+        }
+        .grid-item {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .grid-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .grid-item p {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.33_53bcb238.jpg" alt="Item 1">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.33_e191a3a4.jpg" alt="Item 2">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.33_f1d61fb0.jpg" alt="Item 3">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.34_6f670168.jpg" alt="Item 4">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.37_2736734d.jpg" alt="Item 5">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.37_30093a5e.jpg" alt="Item 6">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 02.58.37_ea0665e2.jpg" alt="Item 7">
+        </div>
+
+        <div class="grid-item">
+            <img src="assets/img/photography/WhatsApp Image 2024-05-08 at 03.00.41_a0741e2a.jpg" alt="Item 8">
+        </div>
+       
+    </div>
+</body>
+</html>
